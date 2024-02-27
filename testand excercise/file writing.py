@@ -1,0 +1,5 @@
+filename=input("give the file name:")
+f=open(filename,'w')
+text=input("what you need to enter>\n")
+f.write(text)
+f.close()
